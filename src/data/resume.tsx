@@ -65,7 +65,7 @@ export const DATA = {
       // },
       Resume: {
         name: "Resume",
-        url: process.env.RESUME,
+        url: process.env.RESUME as string || "",
         icon: Icons.googleDrive,
         navbar: true,
       },
