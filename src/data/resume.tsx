@@ -1,5 +1,8 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
+import { TbBrandLeetcode } from "react-icons/tb";
+import { SiGeeksforgeeks } from "react-icons/si";
+import { SiCodingninjas } from "react-icons/si";
 
 export const DATA = {
   name: "Setu Kumar",
@@ -13,15 +16,23 @@ export const DATA = {
     "Eager software developer passionate about algorithms and problem-solving, aiming to contribute technical skills to impactful projects while continuously advancing my expertise in software development.",
   avatarUrl: "/me.jpg",
   skills: [
-    "React",
-    "Next.js",
-    "Typescript",
-    "Node.js",
-    "Python",
-    "Postgres",
-    "Docker",
-    "Java",
-    "C++",
+    "c++",
+    "html5",
+    "css3",
+    "java",
+    "python",
+    "mysql",
+    "mongodb",
+    "reactjs",
+    "nodejs",
+    "nextjs2",
+    "js",
+    "typescript",
+    "tailwindcss",
+    "git",
+    "github",
+    "docker",
+    "vscode",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -52,12 +63,12 @@ export const DATA = {
 
       //   navbar: true,
       // },
-      // Youtube: {
-      //   name: "Youtube",
-      //   url: "#",
-      //   icon: Icons.youtube,
-      //   navbar: true,
-      // },
+      Resume: {
+        name: "Resume",
+        url: process.env.RESUME,
+        icon: Icons.googleDrive,
+        navbar: true,
+      },
       email: {
         name: "Send Email",
         url: "#",
@@ -86,9 +97,83 @@ export const DATA = {
       school: "Institute of Engineering and Management",
       href: "#",
       degree: "Bachelor of Technology in Information Technology: 9.65 CGPA",
-      logoUrl: "/buildspace.jpg",
+      logoUrl: "/college.png",
       start: "2022",
-      end: "Present",
+      end: "2026",
+    },
+    {
+      school: "MB International School",
+      href: "#",
+      degree: "12th-CBSE Scored: 89.6%",
+      logoUrl: "/12.png",
+      start: "2019",
+      end: "2021",
+    },
+    {
+      school: "Kendriya Vidyalaya",
+      href: "#",
+      degree: "10th-CBSE Scored: 94.2%",
+      logoUrl: "/10.jpeg",
+      start: "2017",
+      end: "2019",
+    },
+  ],
+  profiles: [
+    {
+      title: "LeetCode",
+      href: "https://leetcode.com/u/setukrjha9040/",
+      icon: <TbBrandLeetcode className="text-xl" />,
+      iconClassName: "text-yellow-500",
+      active: false,
+      description: [
+        "Solved 500+ problems",
+        "Contest rating: 1457",
+        "Global rank: Under 158K"
+      ],
+      technologies: [
+        "C++",  
+        "TypeScript",
+        "Oracle",
+      ],
+      image: "/me.jpg",
+    },
+    {
+      title: "Geeks For Geeks",
+      href: "https://www.geeksforgeeks.org/user/setukrj3jwe/",
+      icon: <SiGeeksforgeeks className="text-xl" />,
+      iconClassName: "text-green-500",
+
+      active: false,
+      description: [
+        "Solved 200+ problems",
+        "Institutional ranking: 241"
+      ],
+      technologies: [
+        "C++", 
+        "Java", 
+        "Python",
+        "C",
+      ],
+      image: "/me.jpg",
+    },
+    {
+      title: "Coding Ninjas",
+      href: "https://www.naukri.com/code360/profile/f0ccaf12-6c6e-4e83-afa8-7a178b688322",
+      icon: <SiCodingninjas className="text-xl" />,
+      iconClassName: "text-blue-500",
+
+      active: false,
+      description: [
+        "Solved 200+ problems on Coding Ninjas",
+        "League: Ninja Dominator"
+      ],
+      technologies: [
+        "HTML", 
+        "CSS", 
+        "JavaScript",
+        "MySQL",
+      ],
+      image: "/me.jpg",
     },
   ],
   projects: [
@@ -113,7 +198,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/rak.png",
       video:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
