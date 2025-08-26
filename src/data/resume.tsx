@@ -178,6 +178,57 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Clash - Real-Time Voting Platform",
+      href: "https://github.com/Setujha90/Clash",
+      dates: "May 2025 - July 2025",
+      active: false,
+      description:
+        "Developed a full-stack voting app. Implemented real-time vote updates and comments with background job handling Integrated NextAuth.js for JWT-based authentication with email verification, password reset, and secure user sessions, Built responsive, accessible UI using Tailwind CSS and enforced strong validation and API security.",
+      technologies: [
+        "HTML",
+        "Tailwind CSS",
+        "TypeScript",
+        "Next.js",
+        "PostgreSQL",
+      ],
+      links: [
+        {
+          type: "Github",
+          href: "https://github.com/Setujha90/Clash",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/Clash.png",
+      video:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
+    {
+      title: "GameOn Mart",
+      href: "https://github.com/Setujha90/GameOn-Mart",
+      dates: "July 2025 - Aug 2025",
+      active: false,
+      description:
+        "GameOn Mart is a full-stack e-commerce platform built with Node.js, React.js, Express.js, and TypeScript, specializing in sports accessories, equipment, and footwear. Designed for athletes and fitness enthusiasts, it delivers a seamless shopping experience with a modern React frontend and robust Express backend for reliable performance.",
+      technologies: [
+        "HTML",
+        "Tailwind CSS",
+        "TypeScript",
+        "Node.js",
+        "Express.js",
+        "MongoDB",  
+      ],
+      links: [
+        {
+          type: "Github",
+          href: "https://github.com/Setujha90/GameOn-Mart",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/GameOn.png",
+      video:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
+    {
       title: "Rakshak",
       href: "https://github.com/Setujha90/Rakshak",
       dates: "June 2024 - Dec 2024",
@@ -201,7 +252,7 @@ export const DATA = {
       image: "/rak.png",
       video:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-    },
+    },   
   ],
   hackathons: [
     {
